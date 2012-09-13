@@ -12,3 +12,4 @@ assembly-info: file-version
 assembly-info: assembly-info
 assembly-info: build
 assembly-info: description
+depends: nettopologysuite
