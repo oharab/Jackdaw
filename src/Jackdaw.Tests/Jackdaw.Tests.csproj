@@ -38,12 +38,16 @@
       <Link>Properties\CommonInfo.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Unit\when_initializing_jackdaw.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Jackdaw\Jackdaw.csproj">
       <Project>{D3E54789-3849-4A67-ABA5-024B1608BA3D}</Project>
       <Name>Jackdaw</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Unit" />
   </ItemGroup>
   <Import Project="..\..\Wraps\openwrap\build\OpenWrap.CSharp.Targets" />
 </Project>
