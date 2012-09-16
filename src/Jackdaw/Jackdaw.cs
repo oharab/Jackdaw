@@ -5,6 +5,7 @@
  * 
  */
 using System;
+using GeoAPI.Geometries;
 
 namespace Jackdaw
 {
@@ -13,7 +14,17 @@ namespace Jackdaw
 	/// </summary>
 	public class Jackdaw
 	{
-		public string ShapeFile { get; set; }
-		public int Boundaries { get; private set; }
+		private string shapeFile;
+		private IGeometryCollection boundaries;
+		
+		public string ShapeFile {
+			get{ return shapeFile;}
+			set{ 
+				shapeFile=value;
+			}
+		}
+		public double Boundaries { 
+			get { return boundaries.Length; }
+		}
 	}
 }

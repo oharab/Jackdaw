@@ -13,3 +13,4 @@ assembly-info: assembly-info
 assembly-info: build
 assembly-info: description
 depends: nettopologysuite
+depends: nettopologysuite.io

@@ -19,7 +19,7 @@ namespace Jackdaw.Tests.Unit
 		{
 			var j=new Jackdaw();
 			j.ShapeFile="../Data/Boundaries/county_region.shp";
-			Assert.AreEqual(43,j.Boundaries,"Boundaries were not read from shp file.");
+			Assert.AreEqual(28,j.Boundaries,"Boundaries were not read from shp file.");
 		}
 	}
 }
