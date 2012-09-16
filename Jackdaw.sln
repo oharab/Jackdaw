@@ -10,10 +10,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenWrap", "OpenWrap", "{8E
 		Jackdaw.tests.wrapdesc = Jackdaw.tests.wrapdesc
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jackdaw", "src\Jackdaw\Jackdaw.csproj", "{D3E54789-3849-4A67-ABA5-024B1608BA3D}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jackdaw.Tests", "src\Jackdaw.Tests\Jackdaw.Tests.csproj", "{5A254EDC-D0A5-4B17-9987-D89164DD464F}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{377DAA4D-A161-499C-8260-BC32F367CD57}"
 	ProjectSection(SolutionItems) = postProject
 	EndProjectSection
@@ -22,6 +18,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Boundaries", "Boundaries", 
 	ProjectSection(SolutionItems) = postProject
 		src\Jackdaw.Tests\Data\Boundaries\county_region.shp = src\Jackdaw.Tests\Data\Boundaries\county_region.shp
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jackdaw", "src\Jackdaw\Jackdaw.csproj", "{D3E54789-3849-4A67-ABA5-024B1608BA3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jackdaw.Tests", "src\Jackdaw.Tests\Jackdaw.Tests.csproj", "{5A254EDC-D0A5-4B17-9987-D89164DD464F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

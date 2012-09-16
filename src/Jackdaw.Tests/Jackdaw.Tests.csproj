@@ -7,7 +7,7 @@
     <OutputType>Library</OutputType>
     <RootNamespace>Jackdaw.Tests</RootNamespace>
     <AssemblyName>Jackdaw.Tests</AssemblyName>
-    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <TargetFrameworkProfile />
   </PropertyGroup>
@@ -33,6 +33,9 @@
   <ItemGroup>
     <Reference Include="nunit.framework" />
     <Reference Include="System" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="..\CommonInfo.cs">
