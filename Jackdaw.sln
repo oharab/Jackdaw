@@ -19,6 +19,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Boundaries", "Boundaries", 
 		src\Jackdaw.Tests\Data\Boundaries\county_region.shp = src\Jackdaw.Tests\Data\Boundaries\county_region.shp
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input", "Input", "{17144577-175F-4CAC-86F1-6055FF6EBAA4}"
+	ProjectSection(SolutionItems) = postProject
+		src\Jackdaw.Tests\Data\Input\ValidExcelFile.xlsx = src\Jackdaw.Tests\Data\Input\ValidExcelFile.xlsx
+	EndProjectSection
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jackdaw", "src\Jackdaw\Jackdaw.csproj", "{D3E54789-3849-4A67-ABA5-024B1608BA3D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jackdaw.Tests", "src\Jackdaw.Tests\Jackdaw.Tests.csproj", "{5A254EDC-D0A5-4B17-9987-D89164DD464F}"
@@ -40,5 +45,6 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E9B7EA24-EC6E-4F8A-9D1E-D126909984F3} = {377DAA4D-A161-499C-8260-BC32F367CD57}
+		{17144577-175F-4CAC-86F1-6055FF6EBAA4} = {377DAA4D-A161-499C-8260-BC32F367CD57}
 	EndGlobalSection
 EndGlobal

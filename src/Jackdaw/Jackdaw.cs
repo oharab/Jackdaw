@@ -6,6 +6,8 @@
  */
 using System;
 using GeoAPI.Geometries;
+using NetTopologySuite.Geometries;
+using NetTopologySuite.IO;
 
 namespace Jackdaw
 {
@@ -19,12 +21,17 @@ namespace Jackdaw
 		
 		public string ShapeFile {
 			get{ return shapeFile;}
-			set{ 
+			set{
 				shapeFile=value;
+				var shp= new ShapefileReader(this.ShapeFile);
+				boundaries=shp.ReadAll();
+				
 			}
 		}
 		public double Boundaries { 
-			get { return boundaries.Length; }
+			get { return boundaries.Count; }
 		}
+		
+		public string InputFile { get; set; }
 	}
 }
