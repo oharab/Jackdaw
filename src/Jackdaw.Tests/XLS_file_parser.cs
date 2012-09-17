@@ -9,7 +9,7 @@ using System.Collections.Generic;
 using Jackdaw.FileParsers;
 using NUnit.Framework;
 
-namespace Jackdaw.Tests.Unit
+namespace Jackdaw.Tests
 {
 	[TestFixture]
 	public class XLS_file_parser
@@ -18,7 +18,7 @@ namespace Jackdaw.Tests.Unit
 		[Test]
 		public void can_read_file_headers()
 		{
-			IFileParser p=new XLSFileParser("../../Data/Input/ValidExcelFile.xlsx");
+			IFileParser p=new XLSFileParser("../../Data/Input/ValidExcelFile.xls");
 			var testHeaders=new[]{"id","street","postcode","X","Y"};
 			
 			CollectionAssert.AreEqual(testHeaders,p.Headers,"Excel parser cannot read expected headers.");
