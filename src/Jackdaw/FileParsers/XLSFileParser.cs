@@ -11,10 +11,10 @@ namespace Jackdaw.FileParsers
 	/// <summary>
 	/// Description of ExcelFileParser.
 	/// </summary>
-	public class ExcelFileParser:IFileParser
+	public class XLSFileParser:IFileParser
 	{
 		
-		public ExcelFileParser(string fileName)
+		public XLSFileParser(string fileName)
 		{
 		}
 		

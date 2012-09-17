@@ -42,8 +42,8 @@
       <Link>Properties\CommonInfo.cs</Link>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Unit\excel_file_reader.cs" />
     <Compile Include="Unit\when_initializing_jackdaw.cs" />
+    <Compile Include="Unit\XLS_file_reader.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Jackdaw\Jackdaw.csproj">

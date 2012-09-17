@@ -22,6 +22,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Input", "Input", "{17144577-175F-4CAC-86F1-6055FF6EBAA4}"
 	ProjectSection(SolutionItems) = postProject
 		src\Jackdaw.Tests\Data\Input\ValidExcelFile.xlsx = src\Jackdaw.Tests\Data\Input\ValidExcelFile.xlsx
+		src\Jackdaw.Tests\Data\Input\ValidExcelFile.xls = src\Jackdaw.Tests\Data\Input\ValidExcelFile.xls
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jackdaw", "src\Jackdaw\Jackdaw.csproj", "{D3E54789-3849-4A67-ABA5-024B1608BA3D}"

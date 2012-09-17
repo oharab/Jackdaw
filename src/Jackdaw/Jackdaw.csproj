@@ -40,7 +40,7 @@
     <Compile Include="..\CommonInfo.cs">
       <Link>Properties\CommonInfo.cs</Link>
     </Compile>
-    <Compile Include="FileParsers\ExcelFileParser.cs" />
+    <Compile Include="FileParsers\XLSFileParser.cs" />
     <Compile Include="IFileParser.cs" />
     <Compile Include="Jackdaw.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
