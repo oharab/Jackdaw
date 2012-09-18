@@ -8,6 +8,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OpenWrap", "OpenWrap", "{8E
 		version = version
 		.gitignore = .gitignore
 		Jackdaw.tests.wrapdesc = Jackdaw.tests.wrapdesc
+		Jackdaw.console.wrapdesc = Jackdaw.console.wrapdesc
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{377DAA4D-A161-499C-8260-BC32F367CD57}"
@@ -29,10 +30,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jackdaw", "src\Jackdaw\Jack
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jackdaw.Tests", "src\Jackdaw.Tests\Jackdaw.Tests.csproj", "{5A254EDC-D0A5-4B17-9987-D89164DD464F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jackdaw.Shell", "src\Jackdaw.Shell\Jackdaw.Shell.csproj", "{407EB2AB-9AC7-4B91-AAB2-B44B130F0452}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
 		Release|x86 = Release|x86
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{D3E54789-3849-4A67-ABA5-024B1608BA3D}.Debug|x86.Build.0 = Debug|x86
@@ -43,6 +48,14 @@ Global
 		{5A254EDC-D0A5-4B17-9987-D89164DD464F}.Debug|x86.ActiveCfg = Debug|x86
 		{5A254EDC-D0A5-4B17-9987-D89164DD464F}.Release|x86.Build.0 = Release|x86
 		{5A254EDC-D0A5-4B17-9987-D89164DD464F}.Release|x86.ActiveCfg = Release|x86
+		{407EB2AB-9AC7-4B91-AAB2-B44B130F0452}.Debug|x86.Build.0 = Debug|x86
+		{407EB2AB-9AC7-4B91-AAB2-B44B130F0452}.Debug|x86.ActiveCfg = Debug|x86
+		{407EB2AB-9AC7-4B91-AAB2-B44B130F0452}.Release|x86.Build.0 = Release|x86
+		{407EB2AB-9AC7-4B91-AAB2-B44B130F0452}.Release|x86.ActiveCfg = Release|x86
+		{407EB2AB-9AC7-4B91-AAB2-B44B130F0452}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{407EB2AB-9AC7-4B91-AAB2-B44B130F0452}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{407EB2AB-9AC7-4B91-AAB2-B44B130F0452}.Release|Any CPU.Build.0 = Release|Any CPU
+		{407EB2AB-9AC7-4B91-AAB2-B44B130F0452}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{E9B7EA24-EC6E-4F8A-9D1E-D126909984F3} = {377DAA4D-A161-499C-8260-BC32F367CD57}

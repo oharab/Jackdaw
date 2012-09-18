@@ -1,7 +1,8 @@
 ﻿name: Jackdaw
 depends: openwrap anchored content
-build: msbuild; profile=net35; proj=src/Jackdaw/Jackdaw.csproj
+build: msbuild; profile=net35; project=src/Jackdaw/Jackdaw.csproj
 directory-structure: src\*{scope: Tests=tests}*\**
+directory-structure: src\*{scope: Shell=console}*\**
 author: Ben O'Hara <bpo@robotparade.co.uk>
 copyright: © 2012 Ben O'Hara
 description: Jackdaw is a tool for adding geo-tags to data in Excel files.
